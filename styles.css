@@ -1,0 +1,10 @@
+.bg-img {
+    background-image: url(assets/cat-big.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:640px) {
+    .bg-img {
+        background-image: none;
+    }
+}
