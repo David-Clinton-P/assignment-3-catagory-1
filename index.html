@@ -19,7 +19,7 @@
     .sora-font {
         font-family: "Sora", serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
+        font-weight: normal;
         font-style: normal;
     }
   </style>
@@ -64,14 +64,67 @@
     </div>
     <span class="bg-black h-[0.5px] block md:hidden max-sm:visible"></span>
   </nav>
-  <section>
+  <section class="h-auto relative">
     <div class="bg-img mx-32 mt-16 h-[640px] max-sm:m-auto max-sm:h-auto max-sm:absolute max-sm:px-4 max-sm:py-10 z-10">
       <p class="adlam-font text-5xl w-[581px] h-[187px] leading-tight max-sm:w-full max-sm:h-auto">Pamper Your Pet, Because They Deserve the Best</p>
       <p class="sora-font text-lg w-[574px] h-[61px] mt-3.5 max-sm:w-full max-sm:h-auto">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
       <button class="bg-[#FFDC26] sora-font text-lg px-6 py-2 rounded-[8px] mt-5">Find a pet</button>
     </div>
     <div>
-      <img class="h-[300px] translate-y-64 absolute z-0 max-sm:visible md:hidden" src="assets/cat-big.png" alt="image">
+      <img class="h-auto translate-y-64 z-0 max-sm:visible md:hidden" src="assets/cat-big.png" alt="image">
+    </div>
+  </section>
+  <section class="h-auto relative max-sm:mt-80">
+    <div class="mx-32 mt-28 max-sm:m-auto max-sm:mx-4">
+      <p class="adlam-font text-3xl">Browse By Categories</p>
+      <div class="flex justify-evenly gap-2 mt-10 max-sm:grid max-sm:grid-cols-2 max-sm:place-items-center max-sm:gap-x-20">
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/dog-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Dog</p>
+          <p class="sora-font text-sm">3 items</p>
+        </div>
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/fish-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Fish</p>
+          <p class="sora-font text-sm">3 items</p>
+        </div>
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/cat-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Cat</p>
+          <p class="sora-font text-sm">3 items</p>
+        </div>
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/bird-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Bird</p>
+          <p class="sora-font text-sm">3 items</p>
+        </div>
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/mouse-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Small pet</p>
+          <p class="sora-font text-sm">3 items</p>
+        </div>
+        <div class="bg-[#F9DF8A] w-44 h-56 flex flex-col items-center rounded-xl">
+          <img class="p-6 bg-[#FFFFFF] rounded-full my-7" src="assets/rabbit-cartoon.png" alt="image">
+          <p class="adlam-font text-base">Rabbit</p>
+          <p class="sora-font text-sm">2 items</p>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <section class="border border-red-700 w-full h-[662px] bg-[#FFF9F4]">
+    <div class="my-28 mx-32">
+      <p class="adlam-font text-3xl ">Trending Pet Products</p>
+      <div class="border border-red-700 mt-12">
+        <div class="border border-red-700 bg-[#F9DF8A] w-[362px] h-[343px] rounded-lg place-items-start">
+          <p class="border border-red-700 adlam-font text-2xl mt-10 ml-6">T-Shirt For Dogs</p>
+          <p class="sora-font text-sm mx-6 mt-4">Discover a world of treats, toys and essentials handpicked for</p>
+          <button class="sora-font text-lg bg-[#ffff] py-1 px-4 rounded-lg ml-6 mt-4">Shop Now</button>
+          <img class="h-48 translate-x-48 -translate-y-10" src="assets/cute-pet-mid.png" alt="image">
+        </div>
+        <div>
+          
+        </div>
+      </div>
     </div>
   </section>
 </body>
